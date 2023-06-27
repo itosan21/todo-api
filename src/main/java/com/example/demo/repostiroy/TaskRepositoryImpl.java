@@ -4,7 +4,9 @@ import com.example.demo.entity.Task;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import java.util.List;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public class TaskRepositoryImpl implements TaskRepository {
 
     @PersistenceContext
