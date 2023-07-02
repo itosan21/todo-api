@@ -32,6 +32,13 @@ public class Task {
     @Temporal(TemporalType.DATE)
     private Date dueDate;
 
+    public Task(){
+
+    }
+
+    public Task(long id, String title, String description1, String status) {
+    }
+
     public Long getId() {
         return id;
     }
