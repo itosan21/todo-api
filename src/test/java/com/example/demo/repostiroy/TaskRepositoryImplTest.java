@@ -11,7 +11,7 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 
 
 @DataJpaTest
-class TaskRepositoryTest {
+public class TaskRepositoryImplTest {
 
     @Autowired
     private TaskRepository taskRepository;
